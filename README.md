@@ -38,7 +38,7 @@ $ pip install -r requirements.txt
 
 ##Flask Configuration
 
-####Example
+#### Example
 
 ```
 app = Flask(__name__)
@@ -46,14 +46,14 @@ app.config['DEBUG'] = True
 ```
 ### Configuring From Files
 
-####Example Usage
+#### Example Usage
 
 ```
 app = Flask(__name__ )
 app.config.from_pyfile('config.Development.cfg')
 ```
 
-####cfg example
+#### cfg example
 
 ```
 
@@ -83,7 +83,7 @@ $ nosetests flask-example
 ```
 
 
-##Reference
+## Reference
 
 - [Flask](http://flask.pocoo.org/)
 - [Flask Extension](http://flask.pocoo.org/extensions/)
