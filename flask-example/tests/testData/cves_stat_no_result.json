@@ -1,0 +1,32 @@
+{
+  "top": {
+    "_topDate": [],
+    "_topPopular": [],
+    "_topExploit": [],
+    "_topPrice": [],
+    "_topSeverity": []
+  },
+  "cveCount": 0,
+  "tweetCount": {
+    "value": 0
+  },
+  "pieStat": {
+    "_vulTypeAgg": [],
+    "_exploitAgg": [],
+    "_priceAgg": [],
+    "_severityAgg": [
+      {
+        "label": "Low",
+        "data": 0
+      },
+      {
+        "label": "Medium",
+        "data": 0
+      },
+      {
+        "label": "High",
+        "data": 0
+      }
+    ]
+  }
+}

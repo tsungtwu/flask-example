@@ -1,0 +1,43 @@
+{
+  "cveCount": 4722,
+  "cves": [
+    {
+      "cvedetail_affected_product": null,
+      "CVE_ID": "CVE-2016-6656",
+      "CVSS_V2_base_score": null,
+      "zeroday_price": {
+        "upper": null,
+        "lower": null,
+        "range": null
+      },
+      "cvedetail_affected_vender": null,
+      "NVD_CWEID": null,
+      "exploit": 0,
+      "original_release_date": 1481846400000,
+      "overview": "An issue was discovered in Pivotal Greenplum before 4.3.10.0. Creation of external tables using GPHDFS protocol has a vulnerability whereby arbitrary commands can be injected into the system. In order to exploit this vulnerability the user must have superuser 'gpadmin' access to the system or have been granted GPHDFS protocol permissions in order to create a GPHDFS external table.",
+      "retweet_count": 0,
+      "tweet_count": 1,
+      "exploit_date": null,
+      "cvedetail_vultype": null
+    },
+    {
+      "cvedetail_affected_product": null,
+      "CVE_ID": "CVE-2016-6657",
+      "CVSS_V2_base_score": null,
+      "zeroday_price": {
+        "upper": null,
+        "lower": null,
+        "range": null
+      },
+      "cvedetail_affected_vender": null,
+      "NVD_CWEID": null,
+      "exploit": 0,
+      "original_release_date": 1481846400000,
+      "overview": "An open redirect vulnerability has been detected with some Pivotal Cloud Foundry Elastic Runtime components. Users of affected versions should apply the following mitigation: Upgrade PCF Elastic Runtime 1.8.x versions to 1.8.12 or later. Upgrade PCF Ops Manager 1.7.x versions to 1.7.18 or later and 1.8.x versions to 1.8.10 or later.",
+      "retweet_count": 0,
+      "tweet_count": 20,
+      "exploit_date": null,
+      "cvedetail_vultype": null
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "top": {
+    "_topDate": [
+      {
+        "cvedetail_affected_product": null,
+        "CVE_ID": "CVE-2016-6656",
+        "CVSS_V2_base_score": null,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": null,
+        "NVD_CWEID": null,
+        "exploit": 0,
+        "original_release_date": 1481846400000,
+        "overview": "An issue was discovered in Pivotal Greenplum before 4.3.10.0. Creation of external tables using GPHDFS protocol has a vulnerability whereby arbitrary commands can be injected into the system. In order to exploit this vulnerability the user must have superuser 'gpadmin' access to the system or have been granted GPHDFS protocol permissions in order to create a GPHDFS external table.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": null,
+        "CVE_ID": "CVE-2016-6657",
+        "CVSS_V2_base_score": null,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": null,
+        "NVD_CWEID": null,
+        "exploit": 0,
+        "original_release_date": 1481846400000,
+        "overview": "An open redirect vulnerability has been detected with some Pivotal Cloud Foundry Elastic Runtime components. Users of affected versions should apply the following mitigation: Upgrade PCF Elastic Runtime 1.8.x versions to 1.8.12 or later. Upgrade PCF Ops Manager 1.7.x versions to 1.7.18 or later and 1.8.x versions to 1.8.10 or later.",
+        "retweet_count": 0,
+        "tweet_count": 20,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Experience Manager",
+        "CVE_ID": "CVE-2016-7885",
+        "CVSS_V2_base_score": 6.8,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-352",
+        "exploit": 0,
+        "original_release_date": 1481760000000,
+        "overview": "Adobe Experience Manager versions 6.2 and earlier have a vulnerability that could be used in Cross-Site Request Forgery attacks.",
+        "retweet_count": 0,
+        "tweet_count": 4,
+        "exploit_date": null,
+        "cvedetail_vultype": "CSRF"
+      },
+      {
+        "cvedetail_affected_product": "Open-xchange Appsuite",
+        "CVE_ID": "CVE-2016-6848",
+        "CVSS_V2_base_score": 1.9,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": "Open-xchange",
+        "NVD_CWEID": "CWE-254",
+        "exploit": 0,
+        "original_release_date": 1481760000000,
+        "overview": "An issue was discovered in Open-Xchange OX App Suite before 7.8.2-rev8. API requests can be used to inject, generate and download executable files to the client (Reflected File Download). Malicious platform specific (e.g. Microsoft Windows) batch file can be created via a trusted domain without authentication that, if executed by the user, may lead to local code execution.",
+        "retweet_count": 9,
+        "tweet_count": 43,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Open-xchange Appsuite",
+        "CVE_ID": "CVE-2016-6852",
+        "CVSS_V2_base_score": 4.3,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": "Open-xchange",
+        "NVD_CWEID": "CWE-200",
+        "exploit": 0,
+        "original_release_date": 1481760000000,
+        "overview": "An issue was discovered in Open-Xchange OX App Suite before 7.8.2-rev8. Users can provide local file paths to the RSS reader; the response and error code give hints about whether the provided file exists or not. Attackers may discover specific system files or library versions on the middleware server to prepare further attacks.",
+        "retweet_count": 9,
+        "tweet_count": 40,
+        "exploit_date": null,
+        "cvedetail_vultype": "Obtain Information"
+      },
+      {
+        "cvedetail_affected_product": "7-zip, Fedora, Solaris",
+        "CVE_ID": "CVE-2016-2334",
+        "CVSS_V2_base_score": 9.3,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "7-zip, Fedoraproject, Oracle",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1481587200000,
+        "overview": "Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile method in 7zip before 16.00 and p7zip allows remote attackers to execute arbitrary code via a crafted HFS+ image.",
+        "retweet_count": 6,
+        "tweet_count": 12,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Imagemagick, Solaris",
+        "CVE_ID": "CVE-2016-5687",
+        "CVSS_V2_base_score": 7.5,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": "Imagemagick, Oracle",
+        "NVD_CWEID": "CWE-125",
+        "exploit": 0,
+        "original_release_date": 1481587200000,
+        "overview": "The VerticalFilter function in the DDS coder in ImageMagick before 6.9.4-3 and 7.x before 7.0.1-4 allows remote attackers to have unspecified impact via a crafted DDS file, which triggers an out-of-bounds read.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Imagemagick, Solaris",
+        "CVE_ID": "CVE-2016-5690",
+        "CVSS_V2_base_score": 7.5,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": "Imagemagick, Oracle",
+        "NVD_CWEID": "CWE-476",
+        "exploit": 0,
+        "original_release_date": 1481587200000,
+        "overview": "The ReadDCMImage function in DCM reader in ImageMagick before 6.9.4-5 and 7.x before 7.0.1-7 allows remote attackers to have unspecified impact via vectors involving the for statement in computing the pixel scaling table.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": null,
+        "CVE_ID": "CVE-2016-5647",
+        "CVSS_V2_base_score": null,
+        "zeroday_price": {
+          "upper": null,
+          "lower": null,
+          "range": null
+        },
+        "cvedetail_affected_vender": null,
+        "NVD_CWEID": null,
+        "exploit": 0,
+        "original_release_date": 1481587200000,
+        "overview": "The igdkmd64 module in the Intel Graphics Driver through 15.33.42.435, 15.36.x through 15.36.30.4385, and 15.40.x through 15.40.4404 on Windows allows local users to cause a denial of service (crash) or gain privileges via a crafted D3DKMTEscape request.",
+        "retweet_count": 14,
+        "tweet_count": 22,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": null,
+        "CVE_ID": "CVE-2016-6663",
+        "CVSS_V2_base_score": null,
+        "zeroday_price": {
+          "upper": 25,
+          "lower": 10,
+          "range": "$10k-$25k"
+        },
+        "cvedetail_affected_vender": null,
+        "NVD_CWEID": null,
+        "exploit": 1,
+        "original_release_date": 1481587200000,
+        "overview": "Race condition in Oracle MySQL before 5.5.52, 5.6.x before 5.6.33, 5.7.x before 5.7.15, and 8.x before 8.0.1; MariaDB before 5.5.52 and 10.1.x before 10.1.18; Percona Server before 5.5.51-38.2, 5.6.x before 5.6.32-78-1, and 5.7.x before 5.7.14-8; and Percona XtraDB Cluster before 5.5.41-37.0, 5.6.x before 5.6.32-25.17, and 5.7.x before 5.7.14-26.17 allows local users with certain permissions to gain privileges by leveraging use of my_copystat by REPAIR TABLE to repair a MyISAM table.",
+        "retweet_count": 906,
+        "tweet_count": 578,
+        "exploit_date": 1477958400000,
+        "cvedetail_vultype": "Gain privileges"
+      }
+    ],
+    "_topPopular": [
+      {
+        "cvedetail_affected_product": "Ubuntu Core, Ubuntu Linux, Debian Linux, Linux Kernel, Enterprise Linux, Enterprise Linux Aus, Enterprise Linux Eus, Enterprise Linux Long Life, Enterprise Linux Tus",
+        "CVE_ID": "CVE-2016-5195",
+        "CVSS_V2_base_score": 7.2,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Canonical, Debian, Linux, Redhat",
+        "NVD_CWEID": "CWE-362",
+        "exploit": 1,
+        "original_release_date": 1478736000000,
+        "overview": "Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka Dirty COW.",
+        "retweet_count": 9013,
+        "tweet_count": 5732,
+        "exploit_date": 1476835200000,
+        "cvedetail_vultype": "Gain privileges"
+      },
+      {
+        "cvedetail_affected_product": "Hp-ux, Bind, Linux, Solaris, Vm Server",
+        "CVE_ID": "CVE-2016-2776",
+        "CVSS_V2_base_score": 7.8,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "HP, ISC, Oracle",
+        "NVD_CWEID": "CWE-20",
+        "exploit": 1,
+        "original_release_date": 1475020800000,
+        "overview": "buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.11.x before 9.11.0rc3 does not properly construct responses, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted query.",
+        "retweet_count": 4246,
+        "tweet_count": 3354,
+        "exploit_date": 1475539200000,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Openssl",
+        "CVE_ID": "CVE-2016-6307",
+        "CVSS_V2_base_score": 4.3,
+        "zeroday_price": {
+          "upper": 25,
+          "lower": 10,
+          "range": "$10k-$25k"
+        },
+        "cvedetail_affected_vender": "Openssl",
+        "NVD_CWEID": "CWE-400",
+        "exploit": 0,
+        "original_release_date": 1474848000000,
+        "overview": "The state-machine implementation in OpenSSL 1.1.0 before 1.1.0a allocates memory before checking for an excessive length, which might allow remote attackers to cause a denial of service (memory consumption) via crafted TLS messages, related to statem/statem.c and statem/statem_lib.c.",
+        "retweet_count": 5923,
+        "tweet_count": 244,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "AIR, Air Sdk, Air Sdk \\\\&amp; Compiler, Flash Player, Flash Player Esr",
+        "CVE_ID": "CVE-2016-1000",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "NVD-CWE-Other",
+        "exploit": 0,
+        "original_release_date": 1457740800000,
+        "overview": "Use-after-free vulnerability in Adobe Flash Player before 18.0.0.333 and 19.x through 21.x before 21.0.0.182 on Windows and OS X and before 11.2.202.577 on Linux, Adobe AIR before 21.0.0.176, Adobe AIR SDK before 21.0.0.176, and Adobe AIR SDK &amp; Compiler before 21.0.0.176 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-0987, CVE-2016-0988, CVE-2016-0990, CVE-2016-0991, CVE-2016-0994, CVE-2016-0995, CVE-2016-0996, CVE-2016-0997, CVE-2016-0998, and CVE-2016-0999.",
+        "retweet_count": 654,
+        "tweet_count": 4815,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Mariadb, Mysql, Percona Server",
+        "CVE_ID": "CVE-2016-6662",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Mariadb, Oracle, Percona",
+        "NVD_CWEID": "CWE-264",
+        "exploit": 1,
+        "original_release_date": 1474329600000,
+        "overview": "Oracle MySQL through 5.5.52, 5.6.x through 5.6.33, and 5.7.x through 5.7.15; MariaDB before 5.5.51, 10.0.x before 10.0.27, and 10.1.x before 10.1.17; and Percona Server before 5.5.51-38.1, 5.6.x before 5.6.32-78.0, and 5.7.x before 5.7.14-7 allow local users to create arbitrary configurations and bypass certain protection mechanisms by setting general_log_file to a my.cnf configuration.  NOTE: this can be leveraged to execute arbitrary code with root privileges by setting malloc_lib.",
+        "retweet_count": 2613,
+        "tweet_count": 1932,
+        "exploit_date": 1473638400000,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Anti-virus Engine",
+        "CVE_ID": "CVE-2016-2208",
+        "CVSS_V2_base_score": 9.4,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Symantec",
+        "NVD_CWEID": "CWE-399",
+        "exploit": 1,
+        "original_release_date": 1463616000000,
+        "overview": "The kernel component in Symantec Anti-Virus Engine (AVE) 20151.1 before 20151.1.1.4 allows remote attackers to execute arbitrary code or cause a denial of service (memory access violation and system crash) via a malformed PE header file.",
+        "retweet_count": 2415,
+        "tweet_count": 229,
+        "exploit_date": 1463443200000,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Flash Player",
+        "CVE_ID": "CVE-2016-7855",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-416",
+        "exploit": 1,
+        "original_release_date": 1477958400000,
+        "overview": "Use-after-free vulnerability in Adobe Flash Player before 23.0.0.205 on Windows and OS X and before 11.2.202.643 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in October 2016.",
+        "retweet_count": 1144,
+        "tweet_count": 897,
+        "exploit_date": 1477440000000,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Flash Player",
+        "CVE_ID": "CVE-2016-4117",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 1,
+        "original_release_date": 1462838400000,
+        "overview": "Adobe Flash Player 21.0.0.226 and earlier allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in May 2016.",
+        "retweet_count": 1121,
+        "tweet_count": 809,
+        "exploit_date": 1463961600000,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Apple Tv, Iphone Os, Safari",
+        "CVE_ID": "CVE-2016-4622",
+        "CVSS_V2_base_score": 6.8,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Apple",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, a different vulnerability than CVE-2016-4589, CVE-2016-4623, and CVE-2016-4624.",
+        "retweet_count": 1542,
+        "tweet_count": 280,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Internet Explorer, Windows 7, Windows Server 2008, Windows Vista",
+        "CVE_ID": "CVE-2016-3298",
+        "CVSS_V2_base_score": 2.6,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-200",
+        "exploit": 1,
+        "original_release_date": 1476316800000,
+        "overview": "Microsoft Internet Explorer 9 through 11 and the Internet Messaging API in Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allow remote attackers to determine the existence of arbitrary files via a crafted web site, aka Internet Explorer Information Disclosure Vulnerability.",
+        "retweet_count": 1167,
+        "tweet_count": 536,
+        "exploit_date": 1476144000000,
+        "cvedetail_vultype": "Obtain Information"
+      }
+    ],
+    "_topExploit": [
+      {
+        "cvedetail_affected_product": "Bassmaster Plugin",
+        "CVE_ID": "CVE-2014-7205",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "Bassmaster Plugin Project",
+        "NVD_CWEID": "CWE-94",
+        "exploit": 1,
+        "original_release_date": 1412726400000,
+        "overview": "Eval injection vulnerability in the internals.batch function in lib/batch.js in the bassmaster plugin before 1.5.2 for the hapi server framework for Node.js allows remote attackers to execute arbitrary Javascript code via unspecified vectors.",
+        "retweet_count": 11,
+        "tweet_count": 5,
+        "exploit_date": 1478044800000,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Internet Explorer",
+        "CVE_ID": "CVE-2015-0040",
+        "CVSS_V2_base_score": 9.3,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-399",
+        "exploit": 1,
+        "original_release_date": 1423526400000,
+        "overview": "Microsoft Internet Explorer 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka Internet Explorer Memory Corruption Vulnerability, a different vulnerability than CVE-2015-0018, CVE-2015-0037, and CVE-2015-0066.",
+        "retweet_count": 3,
+        "tweet_count": 27,
+        "exploit_date": 1479081600000,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Websphere Extreme Scale",
+        "CVE_ID": "CVE-2016-0400",
+        "CVSS_V2_base_score": 4.3,
+        "zeroday_price": {
+          "upper": 25,
+          "lower": 10,
+          "range": "$10k-$25k"
+        },
+        "cvedetail_affected_vender": "IBM",
+        "NVD_CWEID": "NVD-CWE-Other",
+        "exploit": 1,
+        "original_release_date": 1467417600000,
+        "overview": "CRLF injection vulnerability in IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3, 7.1.1 before 7.1.1.1, 8.5 before 8.5.0.3, and 8.6 before 8.6.0.8 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.",
+        "retweet_count": 2,
+        "tweet_count": 12,
+        "exploit_date": 1467158400000,
+        "cvedetail_vultype": "Http response splitting"
+      },
+      {
+        "cvedetail_affected_product": "Ruby On Rails",
+        "CVE_ID": "CVE-2016-0752",
+        "CVSS_V2_base_score": 5,
+        "zeroday_price": {
+          "upper": 2,
+          "lower": 1,
+          "range": "$1k-$2k"
+        },
+        "cvedetail_affected_vender": "Rubyonrails",
+        "NVD_CWEID": "CWE-22",
+        "exploit": 1,
+        "original_release_date": 1455494400000,
+        "overview": "Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 allows remote attackers to read arbitrary files by leveraging an application's unrestricted use of the render method and providing a .. (dot dot) in a pathname.",
+        "retweet_count": 34,
+        "tweet_count": 14,
+        "exploit_date": 1476662400000,
+        "cvedetail_vultype": "Directory traversal"
+      },
+      {
+        "cvedetail_affected_product": "Epc3928 Firmware",
+        "CVE_ID": "CVE-2016-1328",
+        "CVSS_V2_base_score": 7.8,
+        "zeroday_price": {
+          "upper": 10,
+          "lower": 5,
+          "range": "$5k-$10k"
+        },
+        "cvedetail_affected_vender": "Cisco",
+        "NVD_CWEID": "CWE-20",
+        "exploit": 1,
+        "original_release_date": 1467504000000,
+        "overview": "goform/WClientMACList on Cisco EPC3928 devices allows remote attackers to cause a denial of service (device crash) via a long h_sortWireless parameter, related to a Gateway Client List Denial of Service issue, aka Bug ID CSCux24948.",
+        "retweet_count": 0,
+        "tweet_count": 15,
+        "exploit_date": 1465257600000,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Flash Player, Edge, Internet Explorer",
+        "CVE_ID": "CVE-2016-1096",
+        "CVSS_V2_base_score": 7.6,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Adobe, Microsoft",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 1,
+        "original_release_date": 1462924800000,
+        "overview": "Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064.",
+        "retweet_count": 1,
+        "tweet_count": 9,
+        "exploit_date": 1463443200000,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Windows 10, Windows 7, Windows 8.1, Windows Rt 8.1, Windows Server 2008, Windows Server 2012, Windows Vista",
+        "CVE_ID": "CVE-2016-0051",
+        "CVSS_V2_base_score": 7.2,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-264",
+        "exploit": 1,
+        "original_release_date": 1455062400000,
+        "overview": "The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka WebDAV Elevation of Privilege Vulnerability.",
+        "retweet_count": 42,
+        "tweet_count": 7,
+        "exploit_date": 1468195200000,
+        "cvedetail_vultype": "Gain privileges"
+      },
+      {
+        "cvedetail_affected_product": "Windows 10, Windows 7, Windows 8.1, Windows Rt 8.1, Windows Server 2008, Windows Server 2012, Windows Vista",
+        "CVE_ID": "CVE-2016-0070",
+        "CVSS_V2_base_score": 4.3,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-200",
+        "exploit": 1,
+        "original_release_date": 1476316800000,
+        "overview": "The kernel in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold, 1511, and 1607 allows local users to gain privileges via a crafted application that makes an API call to access sensitive information in the registry, aka Windows Kernel Local Elevation of Privilege Vulnerability.",
+        "retweet_count": 154,
+        "tweet_count": 76,
+        "exploit_date": 1476921600000,
+        "cvedetail_vultype": "Gain privileges"
+      },
+      {
+        "cvedetail_affected_product": "Windows 10, Windows 8.1, Windows Rt 8.1, Windows Server 2012",
+        "CVE_ID": "CVE-2016-0073",
+        "CVSS_V2_base_score": 2.1,
+        "zeroday_price": {
+          "upper": 50,
+          "lower": 25,
+          "range": "$25k-$50k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-200",
+        "exploit": 1,
+        "original_release_date": 1476316800000,
+        "overview": "The kernel in Microsoft Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold, 1511, and 1607 allows local users to gain privileges via a crafted application that makes an API call to access sensitive information in the registry, aka Windows Kernel Local Elevation of Privilege Vulnerability, a different vulnerability than CVE-2016-0075.",
+        "retweet_count": 6,
+        "tweet_count": 48,
+        "exploit_date": 1476748800000,
+        "cvedetail_vultype": "Gain privileges"
+      },
+      {
+        "cvedetail_affected_product": "Windows 10, Windows 7, Windows 8.1, Windows Rt 8.1, Windows Server 2008, Windows Server 2012, Windows Vista",
+        "CVE_ID": "CVE-2016-0171",
+        "CVSS_V2_base_score": 7.2,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-264",
+        "exploit": 1,
+        "original_release_date": 1462838400000,
+        "overview": "The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allow local users to gain privileges via a crafted application, aka Win32k Elevation of Privilege Vulnerability, a different vulnerability than CVE-2016-0173, CVE-2016-0174, and CVE-2016-0196.",
+        "retweet_count": 0,
+        "tweet_count": 8,
+        "exploit_date": 1465948800000,
+        "cvedetail_vultype": "Gain privileges"
+      }
+    ],
+    "_topPrice": [
+      {
+        "cvedetail_affected_product": "Windows 2003 Server, Windows 7, Windows 8, Windows 8.1, Windows Rt, Windows Rt 8.1, Windows Server 2008, Windows Server 2012, Windows Vista, Windows Xp",
+        "CVE_ID": "CVE-2013-3940",
+        "CVSS_V2_base_score": 9.3,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Microsoft",
+        "NVD_CWEID": "CWE-189",
+        "exploit": 0,
+        "original_release_date": 1384214400000,
+        "overview": "Integer overflow in the Graphics Device Interface (GDI) in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted image in a Windows Write (.wri) document, which is not properly handled in WordPad, aka Graphics Device Interface Integer Overflow Vulnerability.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Flash Player",
+        "CVE_ID": "CVE-2014-0515",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1398729600000,
+        "overview": "Buffer overflow in Adobe Flash Player before 11.7.700.279 and 11.8.x through 13.0.x before 13.0.0.206 on Windows and OS X, and before 11.2.202.356 on Linux, allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in April 2014.",
+        "retweet_count": 0,
+        "tweet_count": 2,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Glibc, Communications Applications, Oracle Pillar Axiom",
+        "CVE_ID": "CVE-2015-0235",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "GNU, Oracle",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1422403200000,
+        "overview": "Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka GHOST.",
+        "retweet_count": 1,
+        "tweet_count": 16,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Iphone Os, Mac Os X",
+        "CVE_ID": "CVE-2016-1734",
+        "CVSS_V2_base_score": 7.2,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Apple",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1458691200000,
+        "overview": "AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physically proximate attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted USB device.",
+        "retweet_count": 6,
+        "tweet_count": 3,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Android",
+        "CVE_ID": "CVE-2016-2507",
+        "CVSS_V2_base_score": 9.3,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Google",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1468108800000,
+        "overview": "Integer overflow in codecs/on2/h264dec/source/h264bsd_storage.c in libstagefright in mediaserver in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-07-01 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted media file, aka internal bug 28532266.",
+        "retweet_count": 0,
+        "tweet_count": 9,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Common Applications Calendar",
+        "CVE_ID": "CVE-2016-3541",
+        "CVSS_V2_base_score": 9.4,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "Unspecified vulnerability in the Oracle Common Applications Calendar component in Oracle E-Business Suite 12.1.1, 12.1.2, 12.1.3, 12.2.3, 12.2.4, and 12.2.5 allows remote attackers to affect confidentiality and integrity via vectors related to Notes.",
+        "retweet_count": 0,
+        "tweet_count": 8,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Toplink",
+        "CVE_ID": "CVE-2016-3564",
+        "CVSS_V2_base_score": 9.3,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "Unspecified vulnerability in the Oracle TopLink component in Oracle Fusion Middleware 12.1.3.0, 12.2.1.0, and 12.2.1.1 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JPA-RS.",
+        "retweet_count": 0,
+        "tweet_count": 8,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Agile Engineering Data Management",
+        "CVE_ID": "CVE-2016-3468",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "Unspecified vulnerability in the Oracle Agile Engineering Data Management component in Oracle Supply Chain Products Suite 6.1.3.0 and 6.2.0.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Install.",
+        "retweet_count": 0,
+        "tweet_count": 9,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Outside In Technology",
+        "CVE_ID": "CVE-2016-3592",
+        "CVSS_V2_base_score": 9,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "Unspecified vulnerability in the Outside In Technology component in Oracle Fusion Middleware 8.5.0, 8.5.1, and 8.5.2 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Outside In Filters, a different vulnerability than CVE-2016-3574, CVE-2016-3575, CVE-2016-3576, CVE-2016-3577, CVE-2016-3578, CVE-2016-3579, CVE-2016-3580, CVE-2016-3581, CVE-2016-3582, CVE-2016-3583, CVE-2016-3590, CVE-2016-3591, CVE-2016-3593, CVE-2016-3594, CVE-2016-3595, and CVE-2016-3596.",
+        "retweet_count": 15,
+        "tweet_count": 48,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Database",
+        "CVE_ID": "CVE-2016-3609",
+        "CVSS_V2_base_score": 8.5,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1469059200000,
+        "overview": "Unspecified vulnerability in the OJVM component in Oracle Database Server 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors.",
+        "retweet_count": 0,
+        "tweet_count": 11,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      }
+    ],
+    "_topSeverity": [
+      {
+        "cvedetail_affected_product": "Adobe Air, Adobe Air Sdk, Flash Player",
+        "CVE_ID": "CVE-2013-5330",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 10,
+          "lower": 5,
+          "range": "$5k-$10k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1384214400000,
+        "overview": "Adobe Flash Player before 11.7.700.252 and 11.8.x and 11.9.x before 11.9.900.152 on Windows and Mac OS X and before 11.2.202.327 on Linux, Adobe AIR before 3.9.0.1210, Adobe AIR SDK before 3.9.0.1210, and Adobe AIR SDK &amp; Compiler before 3.9.0.1210 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2013-5329.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": "Denial Of Service"
+      },
+      {
+        "cvedetail_affected_product": "Centricity Dms",
+        "CVE_ID": "CVE-2013-7405",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 2,
+          "lower": 1,
+          "range": "$1k-$2k"
+        },
+        "cvedetail_affected_vender": "Gehealthcare",
+        "NVD_CWEID": "CWE-255",
+        "exploit": 0,
+        "original_release_date": 1438646400000,
+        "overview": "The Ad Hoc Reporting feature in GE Healthcare Centricity DMS 4.2 has a password of Never!Mind for the Administrator user, which has unspecified impact and attack vectors.  NOTE: it is not clear whether this password is default, hardcoded, or dependent on another system or product that requires a fixed value.",
+        "retweet_count": 1,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Bash",
+        "CVE_ID": "CVE-2014-7169",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "GNU",
+        "NVD_CWEID": "CWE-78",
+        "exploit": 0,
+        "original_release_date": 1411516800000,
+        "overview": "GNU Bash through 4.3 bash43-025 processes trailing strings after certain malformed function definitions in the values of environment variables, which allows remote attackers to write to files or possibly have unknown other impact via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-6271.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Bassmaster Plugin",
+        "CVE_ID": "CVE-2014-7205",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "Bassmaster Plugin Project",
+        "NVD_CWEID": "CWE-94",
+        "exploit": 1,
+        "original_release_date": 1412726400000,
+        "overview": "Eval injection vulnerability in the internals.batch function in lib/batch.js in the bassmaster plugin before 1.5.2 for the hapi server framework for Node.js allows remote attackers to execute arbitrary Javascript code via unspecified vectors.",
+        "retweet_count": 11,
+        "tweet_count": 5,
+        "exploit_date": 1478044800000,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Fritz!box",
+        "CVE_ID": "CVE-2014-9727",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "AVM",
+        "NVD_CWEID": "CWE-78",
+        "exploit": 0,
+        "original_release_date": 1432857600000,
+        "overview": "AVM Fritz!Box allows remote attackers to execute arbitrary commands via shell metacharacters in the var:lang parameter to cgi-bin/webcm.",
+        "retweet_count": 0,
+        "tweet_count": 3,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Ubuntu Linux, Fedora, Libreoffice, Opensuse, Enterprise Linux Desktop, Enterprise Linux Server, Enterprise Linux Workstation",
+        "CVE_ID": "CVE-2014-0247",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 5,
+          "lower": 2,
+          "range": "$2k-$5k"
+        },
+        "cvedetail_affected_vender": "Canonical, Fedoraproject, Libreoffice, Novell, Redhat",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1404345600000,
+        "overview": "LibreOffice 4.2.4 executes unspecified VBA macros automatically, which has unspecified impact and attack vectors, possibly related to doc/docmacromode.cxx.",
+        "retweet_count": 1,
+        "tweet_count": 6,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "JDK, JRE",
+        "CVE_ID": "CVE-2014-0415",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Oracle",
+        "NVD_CWEID": "NVD-CWE-noinfo",
+        "exploit": 0,
+        "original_release_date": 1389744000000,
+        "overview": "Unspecified vulnerability in Oracle Java SE 6u65 and 7u45 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5889, CVE-2013-5902, CVE-2014-0410, CVE-2014-0418, and CVE-2014-0424.",
+        "retweet_count": 0,
+        "tweet_count": 1,
+        "exploit_date": null,
+        "cvedetail_vultype": null
+      },
+      {
+        "cvedetail_affected_product": "Flash Player",
+        "CVE_ID": "CVE-2014-0515",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 500,
+          "lower": 100,
+          "range": "$100k-$500k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1398729600000,
+        "overview": "Buffer overflow in Adobe Flash Player before 11.7.700.279 and 11.8.x through 13.0.x before 13.0.0.206 on Windows and OS X, and before 11.2.202.356 on Linux, allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in April 2014.",
+        "retweet_count": 0,
+        "tweet_count": 2,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Adobe Air, Adobe Air Sdk, Flash Player",
+        "CVE_ID": "CVE-2014-0556",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 100,
+          "lower": 50,
+          "range": "$50k-$100k"
+        },
+        "cvedetail_affected_vender": "Adobe",
+        "NVD_CWEID": "CWE-119",
+        "exploit": 0,
+        "original_release_date": 1410220800000,
+        "overview": "Heap-based buffer overflow in Adobe Flash Player before 13.0.0.244 and 14.x and 15.x before 15.0.0.152 on Windows and OS X and before 11.2.202.406 on Linux, Adobe AIR before 15.0.0.249 on Windows and OS X and before 15.0.0.252 on Android, Adobe AIR SDK before 15.0.0.249, and Adobe AIR SDK &amp; Compiler before 15.0.0.249 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0559.",
+        "retweet_count": 1,
+        "tweet_count": 0,
+        "exploit_date": null,
+        "cvedetail_vultype": "Execute Code"
+      },
+      {
+        "cvedetail_affected_product": "Android",
+        "CVE_ID": "CVE-2014-9795",
+        "CVSS_V2_base_score": 10,
+        "zeroday_price": {
+          "upper": 25,
+          "lower": 10,
+          "range": "$10k-$25k"
+        },
+        "cvedetail_affected_vender": "Google",
+        "NVD_CWEID": "CWE-189",
+        "exploit": 0,
+        "original_release_date": 1468108800000,
+        "overview": "app/aboot/aboot.c in the Qualcomm components in Android before 2016-07-05 on Nexus 5 devices does not properly check for an integer overflow, which allows attackers to bypass intended access restrictions via crafted start and size values, aka Android internal bug 28820720 and Qualcomm internal bug CR681957, a related issue to CVE-2014-4325.",
+        "retweet_count": 0,
+        "tweet_count": 13,
+        "exploit_date": null,
+        "cvedetail_vultype": "Overflow"
+      }
+    ]
+  },
+  "cveCount": 4722,
+  "tweetCount": {
+    "value": 227882
+  },
+  "pieStat": {
+    "_vulTypeAgg": [
+      {
+        "label": "Denial Of Service",
+        "data": 1554
+      },
+      {
+        "label": "N/A",
+        "data": 962
+      },
+      {
+        "label": "Execute Code",
+        "data": 639
+      },
+      {
+        "label": "Obtain Information",
+        "data": 486
+      },
+      {
+        "label": "Gain privileges",
+        "data": 346
+      },
+      {
+        "label": "Bypass a restriction or similar",
+        "data": 266
+      },
+      {
+        "label": "Cross Site Scripting",
+        "data": 265
+      },
+      {
+        "label": "Overflow",
+        "data": 89
+      },
+      {
+        "label": "Directory traversal",
+        "data": 48
+      },
+      {
+        "label": "CSRF",
+        "data": 40
+      },
+      {
+        "label": "others",
+        "data": 27
+      }
+    ],
+    "_exploitAgg": [
+      {
+        "label": 0,
+        "data": 4485
+      },
+      {
+        "label": 1,
+        "data": 237
+      }
+    ],
+    "_priceAgg": [
+      {
+        "label": "$25k-$50k",
+        "data": 1047
+      },
+      {
+        "label": "$10k-$25k",
+        "data": 996
+      },
+      {
+        "label": "$2k-$5k",
+        "data": 789
+      },
+      {
+        "label": "$5k-$10k",
+        "data": 612
+      },
+      {
+        "label": "$1k-$2k",
+        "data": 478
+      },
+      {
+        "label": "$50k-$100k",
+        "data": 419
+      },
+      {
+        "label": "$0k-$1k",
+        "data": 214
+      },
+      {
+        "label": "$100k-$500k",
+        "data": 101
+      },
+      {
+        "label": "N/A",
+        "data": 66
+      }
+    ],
+    "_severityAgg": [
+      {
+        "label": "Low",
+        "data": 431
+      },
+      {
+        "label": "Medium",
+        "data": 2227
+      },
+      {
+        "label": "High",
+        "data": 2017
+      }
+    ]
+  }
+}
