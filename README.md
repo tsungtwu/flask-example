@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 ```
 
 
-##Flask Configuration
+## Flask Configuration
 
 #### Example
 
