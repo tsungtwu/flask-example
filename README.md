@@ -87,5 +87,6 @@ $ nosetests flask-example
 
 - [Flask](http://flask.pocoo.org/)
 - [Flask Extension](http://flask.pocoo.org/extensions/)
+- [Flask restplus](http://flask-restplus.readthedocs.io/en/stable/)
 - [Flask Overview](https://www.slideshare.net/maxcnunes1/flask-python-16299282)
 - [In Flask we trust](http://igordavydenko.com/talks/ua-pycon-2012.pdf)
