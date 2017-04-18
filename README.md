@@ -69,6 +69,15 @@ SWAGGER_DOC_URL = '/api'
 
 ```
 
+#### Builtin Configuration Values
+
+SERVER_NAME: the name and port number of the server. 
+
+JSON_SORT_KEYS : By default Flask will serialize JSON objects in a way that the keys are ordered.
+
+- [reference¶](http://flask.pocoo.org/docs/0.12/config/)
+
+
 ## Run Flask
 ```
 $ python flask-example/run.py
@@ -85,8 +94,13 @@ $ nosetests flask-example
 
 ## Reference
 
+Offical Website
+
 - [Flask](http://flask.pocoo.org/)
 - [Flask Extension](http://flask.pocoo.org/extensions/)
 - [Flask restplus](http://flask-restplus.readthedocs.io/en/stable/)
+
+Tutorial
+
 - [Flask Overview](https://www.slideshare.net/maxcnunes1/flask-python-16299282)
 - [In Flask we trust](http://igordavydenko.com/talks/ua-pycon-2012.pdf)
