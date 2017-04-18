@@ -88,9 +88,10 @@ Swagger document page:  `http://127.0.0.1:5000/api`
 
 ## Run unittest
 ```
-$ nosetests flask-example
+$ nosetests flask-example/ --with-cov --cover-html --cover-package=app
 ```
-
+- --with-cov : test with coverage
+- --cover-html: coverage report in html format
 
 ## Reference
 
