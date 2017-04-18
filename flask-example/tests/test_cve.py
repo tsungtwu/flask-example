@@ -40,7 +40,6 @@ class TestCve(TestCase):
 
     
     ## /api/cves/stat
-
     def test_no_parameter_stat(self):
         response = self.client.get("/api/cves/stat")
         print response
@@ -56,8 +55,6 @@ class TestCve(TestCase):
         print response
         self.assert200(response)
         self.assertEqual(response.json, result)
-
-    
 
 
     def test_timeFrom_format(self):
@@ -75,6 +72,8 @@ class TestCve(TestCase):
         self.assertEquals(response.json, \
                 {"message": "Input payload validation failed", \
                     "errors": {"time_to": "Time range end"}})
+
+
     ## /api/cves/{cveId}
     def test_json_response_cve(self):
         response = self.client.get("/api/cves/CVE-2016-1824")

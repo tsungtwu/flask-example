@@ -12,6 +12,8 @@ CONFIG_NAME_MAPPER = {
 
 def create_app(flask_config_name=None):
     '''' create flask app '''
+
+    ## Load Config
     env_flask_config_name = os.getenv('FLASK_CONFIG')
     if not env_flask_config_name and flask_config_name is None:
         flask_config_name = 'development'
@@ -25,7 +27,7 @@ def create_app(flask_config_name=None):
     except KeyError:
         return None
 
-    # Creat app
+    ## Creat app
     app = Flask(__name__)
     app.config.from_pyfile(CONFIG_NAME_MAPPER[flask_config_name])
     app.config.SWAGGER_UI_JSONEDITOR = True
@@ -33,7 +35,7 @@ def create_app(flask_config_name=None):
 
     CORS(app, reousrces={r'/api/*':{"origins":app.config['CORS_ORIGIN']}})
 
-    # Set logger
+    ## Set logger
     #logging.getLogger('flask_cors').level = logging.DEBUG
     #logging.getLogger('elasticsearch').level = logging.WARNING
     logging.basicConfig(format=app.config['LOGGER_FORMAT'], level=app.config['LOGGER_LEVEL'])
@@ -41,7 +43,7 @@ def create_app(flask_config_name=None):
 
     
 
-    # Api init
+    ## Api init
     from app.api import api
 
     api.init_app(app)
