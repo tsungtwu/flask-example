@@ -1,10 +1,10 @@
 from flask_restplus import Api, Namespace
 
 from app.api.cve.apiController import api as ns1
-from app.api.tweet.apiController import api as ns2
+from app.api.user.apiController import api as ns2
 
 
-api = Api(version='1', \
+api = Api(version='2.0', \
             title='Flask Restful plus Api', \
             doc='/api', \
             description='Document for Restful api', \
@@ -13,4 +13,4 @@ api = Api(version='1', \
 
 
 api.add_namespace(ns1, path='/api/cves')
-api.add_namespace(ns2, path='/api/tweet')
+api.add_namespace(ns2, path='/api/users')

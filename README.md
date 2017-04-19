@@ -1,9 +1,15 @@
-# Flask example
+# Flask example v2.0
 
 Using Flask to build a Restful API Server with Swagger document.
 
-Alse with Flask-restplus, Flask-Cors, Flask-Testing extensions.
+Alse with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy extensions.
 
+### Extension:
+- Restful: Flask-restplus
+
+- SQL ORM: Flask-SQLalchemy 
+
+- Testing: Flask-Testing
 
 ## Installation
 
@@ -21,16 +27,16 @@ $ pip install -r requirements.txt
 | |────api/
 | | |────__init__.py
 | | |────cve/
-| | |────tweet/
+| | |────user/
 | |──────config.Development.cfg
 | |──────config.Production.cfg
 | |──────config.Testing.cfg
+| |────dao/
 | |────model/
 | |────util/
 |──────run.py
 |──────tests/
 | |──────test_cve.py
-| |──────test_twitter.py
 | |──────testData/
 
 ```
@@ -100,6 +106,7 @@ Offical Website
 - [Flask](http://flask.pocoo.org/)
 - [Flask Extension](http://flask.pocoo.org/extensions/)
 - [Flask restplus](http://flask-restplus.readthedocs.io/en/stable/)
+- [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
 
 Tutorial
 
