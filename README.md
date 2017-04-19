@@ -2,11 +2,7 @@
 
 Using Flask to build a Restful API Server with Swagger document.
 
-<<<<<<< HEAD
-Also with Flask-restplus, Flask-Cors, Flask-Testing extensions.
-=======
 Alse with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy extensions.
->>>>>>> release/flask-example-restplus-testing-sqlalchemy-v2
 
 ### Extension:
 - Restful: Flask-restplus
