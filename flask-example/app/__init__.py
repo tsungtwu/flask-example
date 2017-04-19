@@ -3,7 +3,6 @@ import os
 from flask import Flask
 from flask_cors import CORS, cross_origin
 
-
 CONFIG_NAME_MAPPER = {
     'development': 'config.Development.cfg',
     'testing': 'config.Testing.cfg',
@@ -40,8 +39,15 @@ def create_app(flask_config_name=None):
     #logging.getLogger('elasticsearch').level = logging.WARNING
     logging.basicConfig(format=app.config['LOGGER_FORMAT'], level=app.config['LOGGER_LEVEL'])
 
+    ## db init
+    from app.dao import daoPool
+    daoPool.init_app(app)
 
-    
+    from app.model.userModel import User
+
+    me = User('admin', 'admin@example.com')
+    daoPool.sqlDAO.session.add(me)
+    daoPool.sqlDAO.session.commit()
 
     ## Api init
     from app.api import api
