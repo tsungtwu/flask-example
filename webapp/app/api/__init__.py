@@ -5,7 +5,7 @@ from app.api.user.apiController import api as ns2
 from app.api.oauth.apiController import api as ns3
 
 
-api = Api(version='2.0', \
+api = Api(version='2.1', \
             title='Flask Restful plus Api', \
             doc='/api', \
             description='Document for Restful api', \
