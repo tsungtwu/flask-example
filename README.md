@@ -86,6 +86,9 @@ JSON_SORT_KEYS : By default Flask will serialize JSON objects in a way that the 
 - [reference¶](http://flask.pocoo.org/docs/0.12/config/)
 
 
+#### OAuth setup
+add your `client_id` and `client_secret` into config file.
+
 ## Run Flask
 ### Run flask for develop
 ```
