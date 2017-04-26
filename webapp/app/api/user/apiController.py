@@ -87,6 +87,7 @@ class User(Resource):
                             '* [Test query] `id`=1')
     def delete(self, id):
         """ Delete user by id """
+        
         user = UserModel.query.get(id)
         if user != None:
             sqlDAO.session.delete(user)

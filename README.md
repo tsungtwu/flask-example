@@ -1,8 +1,8 @@
-# Flask example v2.0
+# Flask example
 
 Using Flask to build a Restful API Server with Swagger document.
 
-Alse with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy extensions.
+Integration with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy,and Flask-OAuth extensions.
 
 ### Extension:
 - Restful: Flask-restplus
@@ -10,6 +10,8 @@ Alse with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy extensions
 - SQL ORM: Flask-SQLalchemy 
 
 - Testing: Flask-Testing
+
+- OAuth: Flask-OAuth
 
 ## Installation
 
@@ -28,16 +30,16 @@ $ pip install -r requirements.txt
 | | |────__init__.py
 | | |────cve/
 | | |────user/
+| | |────oauth/
 | |──────config.Development.cfg
 | |──────config.Production.cfg
 | |──────config.Testing.cfg
 | |────dao/
 | |────model/
+| |────oauth/
 | |────util/
 |──────run.py
 |──────tests/
-| |──────test_cve.py
-| |──────testData/
 
 ```
 
@@ -85,16 +87,31 @@ JSON_SORT_KEYS : By default Flask will serialize JSON objects in a way that the 
 
 
 ## Run Flask
+### Run flask for develop
 ```
-$ python flask-example/run.py
+$ python webapp/run.py
 ```
 In flask, Default port is `5000`
 
 Swagger document page:  `http://127.0.0.1:5000/api`
 
-## Run unittest
+### Run flask for production
+
+** Run with gunicorn **
+
+In  webapp/
+
 ```
-$ nosetests flask-example/ --with-cov --cover-html --cover-package=app
+$ gunicorn -w 4 -b 127.0.0.1:5000 run:app
+
+```
+
+* -w : number of worker
+* -b : Socket to bind
+
+## Unittest
+```
+$ nosetests webapp/ --with-cov --cover-html --cover-package=app
 ```
 - --with-cov : test with coverage
 - --cover-html: coverage report in html format
@@ -107,8 +124,16 @@ Offical Website
 - [Flask Extension](http://flask.pocoo.org/extensions/)
 - [Flask restplus](http://flask-restplus.readthedocs.io/en/stable/)
 - [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
+- [Flask-OAuth](https://pythonhosted.org/Flask-OAuth/)
 
 Tutorial
 
 - [Flask Overview](https://www.slideshare.net/maxcnunes1/flask-python-16299282)
 - [In Flask we trust](http://igordavydenko.com/talks/ua-pycon-2012.pdf)
+
+
+## Changelog
+- Version 2.1 : add OAuth extension: FLASK-OAuth, and google oauth example
+- Version 2.0 : add SQL ORM extension: FLASK-SQLAlchemy
+- Version 1.1 : update nosetest
+- Version 1.0 : basic flask-example with Flask-Restplus, Flask-Tesintg

@@ -32,7 +32,7 @@ def create_app(flask_config_name=None):
     app.config.SWAGGER_UI_JSONEDITOR = True
     app.config.SWAGGER_UI_DOC_EXPANSION = 'list'
 
-    CORS(app, reousrces={r'/api/*':{"origins":app.config['CORS_ORIGIN']}})
+    # CORS(app, reousrces={r'/api/*':{"origins":app.config['CORS_ORIGIN']}})
 
     ## Set logger
     #logging.getLogger('flask_cors').level = logging.DEBUG
@@ -45,14 +45,21 @@ def create_app(flask_config_name=None):
 
     from app.model.userModel import User
 
-    me = User('admin', 'admin@example.com')
+    me = User('admin', 'admin@example.com',None, None)
     daoPool.sqlDAO.session.add(me)
     daoPool.sqlDAO.session.commit()
+
+
+    ## Oauth init
+    from app import oauth
+    oauth.init_oauth(app)
+
 
     ## Api init
     from app.api import api
 
     api.init_app(app)
+
 
 
     return app
