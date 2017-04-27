@@ -11,7 +11,7 @@ from app.util.exceptionHandler import ExcepitonHandler
 from app.dao import daoPool
 
 
-api = Namespace('es', description='es operation')
+api = Namespace('es', description='Es operation')
 esDAO = daoPool.esDAO
 
 regBox =  RegToolBox()
