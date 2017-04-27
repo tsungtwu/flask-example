@@ -45,7 +45,7 @@ def create_app(flask_config_name=None):
 
     from app.model.userModel import User
 
-    me = User('admin', 'admin@example.com',None, None)
+    me = User('admin', 'admin@example.com', None, None)
     daoPool.sqlDAO.session.add(me)
     daoPool.sqlDAO.session.commit()
 

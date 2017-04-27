@@ -5,13 +5,16 @@ Using Flask to build a Restful API Server with Swagger document.
 Integration with Flask-restplus, Flask-Cors, Flask-Testing, Flask-SQLalchemy,and Flask-OAuth extensions.
 
 ### Extension:
-- Restful: Flask-restplus
+- Restful: [Flask-restplus](http://flask-restplus.readthedocs.io/en/stable/)
 
-- SQL ORM: Flask-SQLalchemy 
+- SQL ORM: [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
 
-- Testing: Flask-Testing
+- Testing: [Flask-Testing](http://flask.pocoo.org/docs/0.12/testing/)
 
-- OAuth: Flask-OAuth
+- OAuth: [Flask-OAuth](https://pythonhosted.org/Flask-OAuth/)
+
+- ESDAO: [elasticsearch](https://elasticsearch-py.readthedocs.io/en/master/) , [elasticsearch-dsl](http://elasticsearch-dsl.readthedocs.io/en/latest/index.html)
+
 
 ## Installation
 
@@ -86,9 +89,15 @@ JSON_SORT_KEYS : By default Flask will serialize JSON objects in a way that the 
 - [reference¶](http://flask.pocoo.org/docs/0.12/config/)
 
 
-#### OAuth setup
+### OAuth Setup
 add your `client_id` and `client_secret` into config file.
 
+### ESDAO Setup
+add your `ES host` and `ES port` into config file 
+
+
+
+ 
 ## Run Flask
 ### Run flask for develop
 ```
@@ -128,14 +137,20 @@ Offical Website
 - [Flask restplus](http://flask-restplus.readthedocs.io/en/stable/)
 - [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
 - [Flask-OAuth](https://pythonhosted.org/Flask-OAuth/)
+- [elasticsearch-dsl](http://elasticsearch-dsl.readthedocs.io/en/latest/index.html)
+- [gunicorn](http://gunicorn.org/)
 
 Tutorial
 
 - [Flask Overview](https://www.slideshare.net/maxcnunes1/flask-python-16299282)
 - [In Flask we trust](http://igordavydenko.com/talks/ua-pycon-2012.pdf)
 
+[Wiki Page](https://github.com/tsungtwu/flask-example/wiki)
+
+
 
 ## Changelog
+- Version 2.2 : add ESDAO module
 - Version 2.1 : add OAuth extension: FLASK-OAuth, and google oauth example
 - Version 2.0 : add SQL ORM extension: FLASK-SQLAlchemy
 - Version 1.1 : update nosetest
