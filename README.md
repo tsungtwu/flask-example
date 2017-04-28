@@ -121,6 +121,19 @@ $ gunicorn -w 4 -b 127.0.0.1:5000 run:app
 * -w : number of worker
 * -b : Socket to bind
 
+
+### Run with Docker
+
+```
+$ docker build -t flask-example .
+
+$ docker run -p 5000:5000 --name flask-example flask-example 
+ 
+```
+
+In image building, the webapp folder will also add into the image
+
+
 ## Unittest
 ```
 $ nosetests webapp/ --with-cov --cover-html --cover-package=app
@@ -150,6 +163,8 @@ Tutorial
 
 
 ## Changelog
+
+- Version 2.3 : add dockerfile
 - Version 2.2 : add ESDAO module
 - Version 2.1 : add OAuth extension: FLASK-OAuth, and google oauth example
 - Version 2.0 : add SQL ORM extension: FLASK-SQLAlchemy
